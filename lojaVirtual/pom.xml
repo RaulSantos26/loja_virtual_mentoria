@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>br.com.rps</groupId>
 	<artifactId>lojaVirtual</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>lojaVirtual</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -43,6 +42,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+			<version>42.2.5</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
